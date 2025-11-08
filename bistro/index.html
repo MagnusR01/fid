@@ -24,7 +24,6 @@ font-size: 1em;
  footer {
             text-align: center;
             border-top: 1px solid #57b1dc;
-            margin-top: 40px;
             padding-top: 1em;
             font-size: 0.9em;
             color: #333;
@@ -35,6 +34,17 @@ height: 40px;
 margin-left: .5em;
 margin-right: .5em;
 }
+.container img {
+transition: transform .1s;
+height: 11em;
+width: 11em;
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+img:hover {
+transform:scale(1.1)
+}
     </style>
 </head>
 <body>
@@ -44,15 +54,15 @@ margin-right: .5em;
     <br>Black Goose Bistro</h1>
 
 <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="menu.html">Menu</a></li>
-            <li><a href="bgnews.html">News</a></li>
-            <li><a href="contact.html">Contact</a></li>
-<li><a href="gallery.html">Gallery</a></li>
- <li><a href="jenskitch.html">Jen's Kitchen</a></li>
-        </ul>
-    </nav>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="bgnews.html">News</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="jenskitch.html">Jen's Kitchen</a></li>
+    </ul>
+</nav>
 
     <h2>The Restaurant</h2>
     <p>The Black Goose Bistro offers casual lunch and dinner fare in a relaxed atmosphere. The menu changes regularly to highlight the freshest local ingredients.</p>
@@ -62,7 +72,15 @@ margin-right: .5em;
 
     <h2>Location and Hours</h2>
     <p>Seekonk, Massachusetts;<br>
-    Monday through Thursday 11am to 9pm; <BR>Friday and Saturday, 11am to midnight</p>
+    Monday through Thursday 11am to 9pm;<br>
+    Friday and Saturday, 11am to midnight</p>
+</body>
+
+<div class="container">
+  <a href="form/pizza.html" class="pizza"><img src="icons/pizzabutton.svg" alt="order pizza button"></a>
+</div>
+
+<body>
 <footer>
      <p>
        <h2>Please visit our social media pages:</h2>
